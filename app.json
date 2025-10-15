@@ -1,0 +1,45 @@
+{
+  "id": "5efb4a58-5548-4a3d-93c9-eb87a0dccdf5",
+  "name": "DMS",
+  "publisher": "THWHite",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "2790df46-00b3-40bf-b8bf-aecbec75e6a5",
+      "name": "DSM",
+      "publisher": "JMA",
+      "version": "9.3.0.0"
+    },
+    {
+      "id": "0c0cb664-9379-4d4f-9803-43bbe0ae15d8",
+      "name": "THW_Extension",
+      "publisher": "JMA",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50099
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "9.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "UK-Test",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "port": 8503,
+            "server": "http://dms-local-uat.thwhite.co.uk/?tenant=dms-uat",
+            "tenant": "dms-uat",
+            "serverInstance": "DMS-LOCAL-UAT",
+            "authentication": "Windows",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": false,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "UK-Drift",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "port": 7049,
+            "server": "http://dms.thwhite.co.uk/?tenant=dms",
+            "tenant": "dms",
+            "serverInstance": "DMS",
+            "authentication": "Windows",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": false,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
